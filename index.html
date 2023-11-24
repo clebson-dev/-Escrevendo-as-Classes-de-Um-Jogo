@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herói de Aventura</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Crie seu Herói de Aventura</h1>
+    <form id="hero-form">
+        <label for="hero-type">Tipo:</label>
+        <select id="hero-type">
+            <option value="mago">Mago</option>
+            <option value="guerreiro">Guerreiro</option>
+            <option value="monge">Monge</option>
+            <option value="ninja">Ninja</option>
+        </select>
+        <button type="button" onclick="criarHeroi()">Criar Herói</button>
+    </form>
+    <p id="result"></p>
+    <script src="index.js"></script>
+</body>
+</html>
+
